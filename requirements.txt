@@ -1,0 +1,13 @@
+
+streamlit
+transformers
+
+
+
+torch>=2.6.0+cpu
+
+
+
+sentencepiece
+
+
