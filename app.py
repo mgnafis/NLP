@@ -4,7 +4,7 @@ import json
 
 # Konfigurasi halaman
 st.set_page_config(
-    page_title="Sistem Penerjemahan Indonesia-Inggris",
+    page_title="Sistem Penerjemahan Indonesia-Inggris BY MGN",
     page_icon="🌐",
     layout="wide"
 )
@@ -130,7 +130,7 @@ def simple_rule_based_translation(text):
     return text_lower
 
 # Header aplikasi
-st.title("🌐 Sistem Penerjemahan Mesin Bahasa Indonesia-Inggris")
+st.title("🌐 Sistem Penerjemahan Mesin Bahasa Indonesia-Inggris BY MGN")
 st.markdown("---")
 
 # Sidebar dengan informasi
@@ -184,7 +184,7 @@ with col1:
 with col2:
     st.subheader("🔄 Output (English)")
     
-    if st.button("🚀 Terjemahkan", type="primary", use_container_width=True):
+    if st.button("Terjemahkan", type="primary", use_container_width=True):
         if indonesian_text.strip():
             with st.spinner("Menerjemahkan..."):
                 # Coba MyMemory API terlebih dahulu
@@ -216,11 +216,11 @@ st.markdown("---")
 st.markdown("""
 <div style='text-align: center'>
     <p><strong>Sistem Penerjemahan Mesin Bahasa Indonesia-Inggris</strong></p>
-    <p>Dibuat dengan ❤️ menggunakan Streamlit</p>
+    <p>Dibuat Oleh Muhammad Ghaisan Nafis</p>
 </div>
 """, unsafe_allow_html=True)
 
-# Tips penggunaan
+
 with st.expander("💡 Tips Penggunaan"):
     st.markdown("""
     1. **Untuk hasil terbaik**: Gunakan kalimat yang jelas dan tidak terlalu panjang
